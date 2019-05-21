@@ -46,6 +46,7 @@ func main() {
 /*
 must use make otherwise it is nil
 Index value pairs
+maps = like simple object in js or dictonary in python
 //The index is string the value watever?
 Var <name> map[<keys type>]<values type>
 <name>:=make(map[<key type>]<value type>,optional initial length)
