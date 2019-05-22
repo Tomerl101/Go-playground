@@ -21,4 +21,9 @@ func main() {
 	fmt.Println(hello("Tomer"))
 	fmt.Println(doSum(5, 5))
 	fmt.Println(returnMultiVal())
+
+	//Anonymous function
+	func() {
+		fmt.Println("i run my self! and i dont have name!")
+	}()
 }
