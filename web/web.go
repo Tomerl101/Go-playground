@@ -6,6 +6,7 @@ import (
 )
 
 //go run web/*.go
+//we run httpget.go and web.go
 // then in the browser go to localhost:3000
 
 func index(w http.ResponseWriter, r *http.Request) {
